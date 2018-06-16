@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Attitude Status 2018</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_attitude_status_hindi">Attitude Status English</string>
+    <string name="action_attitude_status_english">Attitude हिंदी Status</string>
+    <string name="action_attitude_left">Previous</string>
+    <string name="action_attitude_right">Next</string>
+</resources>

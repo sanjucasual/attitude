@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/attitudestatus"
+    tools:context=".MainActivity">
+
+    <ru.dimorinny.floatingtextbutton.FloatingTextButton
+        android:id="@+id/action_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="216dp"
+        app:floating_background_color="@color/color_action"
+        app:floating_left_icon="@drawable/ic_touch_app_black_24dp"
+        app:floating_title="@string/action_attitude_status_english"
+        app:floating_title_color="@android:color/black" />
+
+    <ru.dimorinny.floatingtextbutton.FloatingTextButton
+        android:id="@+id/action_buttontwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="159dp"
+        app:floating_background_color="@color/color_action"
+        app:floating_left_icon="@drawable/ic_touch_app_black_24dp"
+        app:floating_title="@string/action_attitude_status_hindi"
+        app:floating_title_color="@android:color/black" />
+
+    <ru.dimorinny.floatingtextbutton.FloatingTextButton
+        android:id="@+id/action_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/action_button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/action_button"
+        android:layout_gravity="center"
+        android:layout_marginBottom="44dp"
+        app:floating_background_color="@color/color_action"
+        app:floating_left_icon="@drawable/ic_share_black_24dp"
+        app:floating_title_color="@android:color/black" />
+
+    <ru.dimorinny.floatingtextbutton.FloatingTextButton
+        android:id="@+id/action_rateus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/action_share"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        app:floating_background_color="@color/color_action"
+        app:floating_left_icon="@drawable/ic_star_black_24dp"
+        app:floating_title_color="@android:color/black" />
+
+    <ru.dimorinny.floatingtextbutton.FloatingTextButton
+        android:id="@+id/action_aboutus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/action_button"
+        android:layout_alignRight="@+id/action_button"
+        android:layout_alignTop="@+id/action_share"
+        android:layout_gravity="center"
+        app:floating_background_color="@color/color_action"
+        app:floating_left_icon="@drawable/ic_create_black_24dp"
+        app:floating_title_color="@android:color/black" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="249dp"
+        android:layout_height="169dp"
+        android:contentDescription="@string/action_attitude_status_english"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="59dp"
+        app:srcCompat="@drawable/status" />
+
+
+</RelativeLayout>
